@@ -7,7 +7,7 @@ const questions = [
     {
         question: "Who was the first to discover the identity of Lady Whistledown?",
         choices: ["Eloise Bridgerton", "Colin Bridgerton", "Daphne Bridgerton", "Genevieve Delacroix"],
-        corret: "Genevieve Delacroix"
+        correct: "Genevieve Delacroix"
     },
     {
         question: "Who does Queen Charlotte assign the job of identifying Lady Whistledown?",
@@ -19,4 +19,4 @@ const questions = [
         choices: ["Germany", "France", "Prussia", "Spain"],
         correct: "Prussia"
     }
-]
+];

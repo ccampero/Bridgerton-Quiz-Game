@@ -13,10 +13,19 @@
 <body>
     <div class="bin">
         <h1>Bridgerton Quiz Game</h1>
-        <div id="instructions">
+        <div id="rules-bin">
             <p>How well do you know Bridgerton? Test your knowledge here!</p>
+            <p>Rules:</p>
+            <ul>
+                <li>Answer each question to the best of your ability.</li>
+                <li>Click "Next" to move on to the next question.</li>
+                <li>At the end, see your score and try again if needed!</li>
+                <li>You must answer all the questions right to win.</li>
+                <li> If you get a question wrong you lose.</li>
+            </ul>
+            <button id="start-button">Start</button>
         </div>
-        <div id="quiz-bin">
+                <div id="quiz-bin">
             <div id="question-bin">
                 <p id="question"></p>
                 <div id="choices"></div>
@@ -28,6 +37,10 @@
         </div>
         <div id="message-bin">
             <p id="message"></p>
+        </div>
+        <div id="result-box" class="result-box hidden">
+            <p id="result-message"></p>
+            <button id="close-result-box">OK</button>
         </div>
     </div>
     <script src="js/questions.js"></script>
