@@ -115,7 +115,7 @@ function endGame() {
     messageBin.removeChild(restartButton);
     startGame();
  });
- messageBin.appendChild(restartButton);
+  messageBin.appendChild(restartButton);
 }
 
 questionBin.style.display = 'none';
