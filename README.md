@@ -1,5 +1,5 @@
 # Bridgerton Quiz Game
-![Screenshot of Game]("Images/Screenshot 2024-06-13 191624.png)"
+[Bridgerton Quiz Game screenshot](image.png)
 
 ## Game Description
 Welcome to the Bridgerton Quiz Game! This interactive game tests your knowledge of the popular book and TV series Bridgerton. Answer questions correctly to move on to the next round and prove you are the ultimate Bridgerton fan. If you get a question wrong, you lose and will need to start over.
