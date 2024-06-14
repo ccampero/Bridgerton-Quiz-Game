@@ -9,6 +9,14 @@ const resultMessage = document.getElementById('result-message');
 const closeResultBoxButton = document.getElementById('close-result-box');
 const rulesBin = document.getElementById('rules-bin');
 const startButton = document.getElementById('start-button');
+const endPage = document.getElementById('end-page');
+const endMessage = document.getElementById('end-message');
+const quizImage = document.getElementById('quiz-image');
+const quizImageAbove = document.getElementById('quiz-image-above');
+const startSound = document.getElementById('start-sound');
+const correctSound = document.getElementById('correct-sound');
+const incorrectSound = document.getElementById('incorrect-sound');
+const endSound = document.getElementById('end-sound');
 
 
 let currentQuestionIndex = 0;
@@ -24,6 +32,8 @@ function startGame() {
     scoreBin.style.display = 'block';
     nextButton.style.display = 'block';
     resultBox.classList.add('hidden'); 
+    endPage.classList.add('hidden');
+    startSound.play(); 
     showQuestion();
 }
 
@@ -51,9 +61,11 @@ function selectAnswer(button, correctAnswer) {
     if (button.textContent === correctAnswer) {
         score++;
         scoreBin.textContent = `Score: ${score}`;
+        correctSound.play();
         showResultMessage("You did it!")
 
     } else {
+        incorrectSound.play();
         showResultMessage("Incorrect");
     }
 
@@ -89,6 +101,7 @@ nextButton.addEventListener('click', () => {
 function endGame() {
     questionBin.style.display = 'none';
     nextButton.style.display = 'none';
+    endSound.play();
     if (score === questions.length) {
         messageBin.textContent = 'You did it! You know your Bridgerton Trivia!';
     } else {

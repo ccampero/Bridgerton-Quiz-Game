@@ -12,8 +12,10 @@
 </head>
 <body>
     <div class="bin">
+        <img id="quiz-image" src="https://th.bing.com/th/id/OIP.tAT9q7P3gZZT-zkRGiPgUAAAAA?rs=1&pid=ImgDetMain" alt="Penelope and Colin in a moment alone in a sweets shop." class="hidden">  
         <h1>Bridgerton Quiz Game</h1>
         <div id="rules-bin">
+            <img src="https://media.licdn.com/dms/image/C5612AQEzanLORglmrA/article-cover_image-shrink_720_1280/0/1642134456115?e=2147483647&v=beta&t=DF44DTjV25KyHyh78DKYWJ-B6_C0AdB3oAEvd0Ce1HE" alt="The Bridgerton family on the steps of their home in front of the door." class="rules-image">
             <p>How well do you know Bridgerton? Test your knowledge here!</p>
             <p>Rules:</p>
             <ul>
@@ -25,6 +27,10 @@
             </ul>
             <button id="start-button">Start</button>
         </div>
+        <audio id="start-sound" src="C:\Users\mccam\Downloads\523491__bogenseeberg__lets-start-the-quiz.wav"></audio>
+    <audio id="correct-sound" src="C:\Users\mccam\Downloads\587252__beetlemuse__dats-right.wav"></audio>
+    <audio id="incorrect-sound" src="C:\Users\mccam\Downloads\587253__beetlemuse__dats-wrong.wav"></audio>
+    <audio id="end-sound" src="C:\Users\mccam\Downloads\217845__soughtaftersounds__quick-piano-end-2.wav"></audio>
                 <div id="quiz-bin">
             <div id="question-bin">
                 <p id="question"></p>
@@ -39,8 +45,13 @@
             <p id="message"></p>
         </div>
         <div id="result-box" class="result-box hidden">
+            <img src="https://i.ytimg.com/vi/77qdbRP1OyU/maxresdefault.jpg" alt="Characters from season 1 of Bridgerton sitting by a bridge and lake." class="end-image">
             <p id="result-message"></p>
             <button id="close-result-box">OK</button>
+        </div>
+        <div id="end-page" class="hidden">
+            <img src="https://i.ytimg.com/vi/77qdbRP1OyU/maxresdefault.jpg" alt="Characters from season 1 of Bridgerton sitting by a bridge and lake." class="end-image">
+            <p id="end-message"></p>
         </div>
     </div>
     <script src="js/questions.js"></script>

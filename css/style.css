@@ -21,7 +21,7 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -103,6 +103,15 @@ body {
     margin-bottom: 20px;
     margin-right: 20px; 
 } 
+
+.rules-image,
+.end-image,
+#quiz-image {
+    width: 50%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 
 .result-box {
     display: none;
