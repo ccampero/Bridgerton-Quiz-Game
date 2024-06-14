@@ -32,7 +32,7 @@ You can view the planning materials for this project here.
 ![Image of the Bridgerton family](https://media.licdn.com/dms/image/C5612AQEzanLORglmrA/article-cover_image-shrink_720_1280/0/1642134456115?e=2147483647&v=beta&t=DF44DTjV25KyHyh78DKYWJ-B6_C0AdB3oAEvd0Ce1HE)
 ![Image of characters from season 1](https://i.ytimg.com/vi/77qdbRP1OyU/maxresdefault.jpg)
 Fonts: Gwendolyn and Pacifico
-Sounds: All sounds were sourced from [link to your sound sources if required for attribution].
+Sounds: All sounds were sourced from [uppbeat](uppbeat.io).
 
 #### Technologies Used
 HTML
